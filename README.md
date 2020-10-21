@@ -16,7 +16,7 @@
 ---
 
 # 1 General information
-”News 2.0" is created in Sublime by Annice Strömberg ([Annice.se](https://annice.se)), 2019. The script can be used to post news articles on a web page with full CRUD support for an admin user. Furthermore, it is built in HTML5, CSS3, PHP and MySQL. In this script version, some deprecated methods have been removed and replaced to keep the code up to date with later PHP versions.
+”News 2.0" is created in Sublime by Annice Strömberg ([Annice.se](https://annice.se)), 2019. It is a simple WCM (Web Content Management) script that can be used to post news articles on a web page with full CRUD support for an admin user. Furthermore, the code is based on HTML5, CSS3, PHP and MySQL.
 
 ---
 
@@ -36,12 +36,12 @@ This script can be run on servers that support PHP and MySQL.
 * Login system based on sessions.
 * Password encryption.
 * Full CRUD functionality for the admin.
-* Responsivedesign.
+* Responsive design.
 * Form validation.
-* Pagination
+* Pagination.
 
 ## 4.1 Changes to version 2.0:
-* Refactored code to remove deprecated methods and applied a more object oriented structure.
+* Refactored code with removed deprecated methods and applied object oriented structure.
 * Added support for responsive layout.
 
 ---
@@ -59,7 +59,7 @@ Screenshot of the admin page to get an overview of the news articles to edit or 
 
 <img src="https://diagrams.annice.se/php-news-2.0/gui-edit-news.png" alt="" width="700">
 
-Screenshot of the admin page to edit admin details in desktop vs. responsive view:
+Screenshot of the admin page in desktop vs. responsive view to edit admin details:
 
 <img src="https://diagrams.annice.se/php-news-2.0/gui-edit-admin.png" alt="" width="700">
 
@@ -72,16 +72,16 @@ Screenshot of the admin page to edit admin details in desktop vs. responsive vie
 
 3. Upload the folder “News2.0” to your PHP supported server and navigate to the page “create_user.php” to create your admin login credentials.
 
-4. Login with your created user credentials to be able to start managing news.
+4. Login with your created admin credentials to be able to start managing news.
 
 ## 6.1 Code snippets
-The following code can be put on any page to display the latest news-as long as the page is saved with the file extension “.php”.The default setting is to display the ten latest entries, but you can modify this number in the news_entries.php file:
+The following code can be put on any page to display the latest news - as long as the page is saved with the file extension “.php”. The default setting is to display the 10 latest entries, but you can modify this number in the "news_entries.php" file:
 
 ```php
 <?php include "news_entries.php"; ?>
 ```
 
-You can also create new admin-protected pages by placing the following code on the top of each page you want protected:
+You can also create new admin-protected pages by placing the following code at the top of each page file you want protected:
 
 ```php
 <?php
