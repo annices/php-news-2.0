@@ -41,7 +41,7 @@ This script can be run on servers that support PHP and MySQL.
 * Pagination.
 
 ## 4.1 Changes to version 2.0:
-* Refactored code with removed deprecated methods and applied object oriented structure.
+* Refactored code to apply object oriented structure along with removed deprecated methods.
 * Added support for responsive layout.
 
 ---
