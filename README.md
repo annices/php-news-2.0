@@ -16,7 +16,7 @@
 ---
 
 # 1 General information
-”News 2.0" is created in Sublime by Annice Strömberg ([Annice.se](https://annice.se)), 2019. It is a simple WCM (Web Content Management) script that can be used to post news articles on a web page with full CRUD support for an admin user. Furthermore, the code is based on HTML5, CSS3, PHP and MySQL.
+”News 2.0" was created in Sublime by Annice Strömberg ([Annice.se](https://annice.se)), 2019. It is a simple WCM (Web Content Management) script that can be used to post news articles on a web page with full CRUD support for an admin user. Furthermore, the code is based on HTML5, CSS3, PHP and MySQL.
 
 ---
 
